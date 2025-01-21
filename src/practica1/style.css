@@ -1,0 +1,11 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card, .card-hecho{
+    width: 300px;
+    box-shadow: 0 0 5px 1px black;
+    margin: 1em 0;
+}
+.card-hecho{
+    background-color: green;
+}
