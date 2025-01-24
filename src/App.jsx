@@ -1,7 +1,7 @@
 import React from "react";
-import PostBody from "./Colt/Instagram/PostBody";
-import StoryList from "./Colt/Instagram/StoryList";
-import { posts } from "./Colt/Instagram/data";
+import PostBody from "./MiniProjects/Instagram/PostBody"
+import StoryList from "./MiniProjects/Instagram/StoryList";
+import { posts } from "./MiniProjects/Instagram/data";
 
 export function App() {
   return (

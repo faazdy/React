@@ -5,7 +5,7 @@ export const posts = [
         userPic: 'https://randomuser.me/api/portraits/men/1.jpg',
         likes: 100,
         image: 'https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp',
-        description: 'lorem'
+        description: 'Fantastic day with my friend Cozy'
     },
     {
         id: 2,

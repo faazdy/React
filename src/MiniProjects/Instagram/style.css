@@ -55,7 +55,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5px;
+    
     width: 100%;
     align-items: center;
 }
@@ -64,7 +64,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 80vh;
-    border-radius: 5px;
     
     .profile{
         display: flex;
@@ -75,7 +74,13 @@ body{
     }
     .img{
         width: 100%;
-        img{width: 100%; max-width: 500px; min-width: 100%;}
+        transition: .2s ease;
+        img{
+            width: 100%; 
+            max-width: 500px; 
+            min-width: 100%; 
+        }
+        
     }
     .interactions{
         padding: .2em 0;
@@ -102,5 +107,8 @@ body{
 
     &:active{
         transform: scale(1.05);
+    }
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.062);
     }
 }
