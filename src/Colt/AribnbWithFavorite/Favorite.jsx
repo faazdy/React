@@ -2,10 +2,10 @@ import React from 'react'
 import { useState } from 'react'
 
 function Favorite() {
-    const [isFavorite, setFavorite] = useState(false)
+    const [isFavorite, setIsFavorite] = useState(false)
 
     const handleFavorite = () =>{
-        setFavorite(!isFavorite)
+        setIsFavorite(!isFavorite)
     }
     const style = {
         backgroundColor: isFavorite ? 'pink' : ''
